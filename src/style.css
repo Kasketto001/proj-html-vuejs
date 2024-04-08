@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  /* Backgrounds */
+  --brand-bg: #FFFFFF;
+  --brand2-bg: #FFFFFF59;
+  --brand3-bg: #f9f9f9;
+  --brand4-bg: #f5f5f5;
+  --brand5-bg: #e5e3df;
+  --brand6-bg: #00d9a6;
+  --brand7-bg: #bbbbbb;
+  --brand8-bg: #527ceb;
+  --brand9-bg: #70707059;
+  --brand10-bg: #3d3d3d;
+  --brand11-bg: #333333;
+  --brand12-bg: #00000073;
+  --brand13-bg: #000000b3;
+  --brand14-bg: #000000e6;
+
+  /* text colors */
+
+  --brand-text: #FFFFFF;
+  --brand2-text: #FFFFFFCF;
+  --brand3-text: #FFFFFFC9;
+  --brand4-text: #FFFFFFCC;
+  --brand5-text: #FFFFFFB3;
+  --brand6-text: #FFFFFF99;
+  --brand7-text: #FFFFFF80;
+  --brand8-text: #F9F9F9;
+  --brand9-text: #00D9A6;
+  --brand10-text: #AAAAAA;
+  --brand11-text: #1BB0CE;
+  --brand12-text: #888888;
+  --brand13-text: #555555;
+  --brand14-text: #444444;
+  --brand15-text: #3D3D3D;
+  --brand16-text: #3939393;
+  --brand17-text: #202020;
+  --brand18-text: #0E0E0E;
+  --brand19-text: #0E0E0EB3;
+  --brand20-text: #000000;
+
+  /* icons color */
+
+  --brand-green: #04D9A4;
+
+  /* fill colors */
+
+  --fill-color: #FFFFFF;
+  --fill2-color: #000000;
+
+  /* Border Colors */
+
+  --border-color: #FFFFFF;
+  --border2-color: #DEDEDE;
+  --border3-color: #BBBBBB;
+  
+  /* Linear Gradients */
+
+  --brand-linear: linear-gradient(90deg, rgba(156,226,99,1) 0%, rgba(4,217,164,1) 100%);
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+                                                
+}
+/* HEADER */
+
+.pre-navbar {
+  background-color: var(--brand11-bg);
+  color: var(--brand-text);
+}
+
+nav {
+  width: 100%;
+}
+
+.logo-brand img {
+  width: 200px;
+}
+.links a {
+  font-size: 14px;
+  font-weight: 00;
+  color: var(--brand16-text);
+  text-decoration: none;
+}
+
+.brand-button {
+  border: none;
+  font-size: 13px;
+  border-radius: 100px;
+  color: var(--brand-text);
+  background: var(--brand-linear);
+  box-shadow: 5px 5px 15px 5px rgba(43,255,159,0.30);
+  font-weight: 400;
+}
+
+.search-button {
+  border: none;
+  background: none;
+  color: var(--brand-green);
+}
