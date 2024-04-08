@@ -6,7 +6,7 @@ export default {
 
 <template>
     <header>
-        <div class="pre-navbar d-flex justify-content-between py-1 px-5">
+        <div class="pre-navbar d-flex justify-content-between py-2 px-5">
             <div class="content-left d-flex gap-2 align-items-center">
                 <span>(001) 88451234</span>
                 <span>88455438</span>
