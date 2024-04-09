@@ -40,6 +40,48 @@ export default {
                 </div>
             </div>
         </section>
+
+        <section class="about">
+    <div class="custom-container mx-1 row align-items-center">
+        <div class="col-5">
+            <h2>We Are Here To Make your <span class="text-green">Website</span> Look More <span class="text-green">Elegant</span> And Stylish!</h2>
+        </div>
+        <div class="col d-flex flex-wrap gap-3 justify-content-end align-item-end">
+            <div class="row gap-3">
+                <div class="col-6 py-2">
+                    <div class="container my-5 mx-3">
+                        <i class="fa-solid fa-gauge-high mb-3"></i>
+                        <h3>Speed Optimization</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores...</p>
+                    </div>
+                </div>
+                <div class="col-6 py-2">
+                    <div class="container my-5 mx-3">
+                        <i class="fa-solid fa-cloud mb-3"></i>
+                        <h3>Cloud Solutions</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row gap-3">
+                <div class="col-6 py-2">
+                    <div class="container my-5 mx-3">
+                        <i class="fa-solid fa-tablet-screen-button mb-3"></i>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores...</p>
+                    </div>
+                </div>
+                <div class="col-6 py-2">
+                    <div class="container my-5 mx-3">
+                        <i class="fa-solid fa-stopwatch mb-3"></i>
+                        <h3>Online Marketing</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A, maiores...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
    </main>
 </template>
 
