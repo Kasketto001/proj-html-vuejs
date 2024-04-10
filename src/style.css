@@ -67,6 +67,17 @@
   font-family: "Poppins", sans-serif;
                                                 
 }
+
+.container-large {
+  width: 100%;
+  margin: 0 10px;
+  min-width: 1920px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 /* HEADER */
 
 .pre-navbar {
@@ -228,3 +239,311 @@ nav {
 .col-6 i {
   font-size: 64px
 }
+
+
+.col-6:hover {
+  background: var(--brand-linear);
+  color: var(--brand-text);
+  transition: 0.3s;
+  box-shadow: 5px 5px 15px 5px rgba(43, 255, 160, 0.541);
+}
+
+/* MISSIONS */
+
+.missions {
+  background-color: var(--brand3-bg);
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-mission {
+  width: 100%;
+}
+.container-mission .row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.images {
+  position: relative;
+  top: -300px;
+}
+.mission-images {
+  position: absolute;
+  left:0;
+}
+.missions img {
+  width: 800px;
+  position: absolute;
+  border-radius: 30px;
+}
+.first {
+  top: 100px;
+  left: 200px;
+}
+.linear-gradient-brand {
+  background: linear-gradient(90deg, rgba(156, 226, 99, 0.555) 0%, rgba(4, 217, 164, 0.61) 100%)
+  , url('./assets/busy-architect-PYVKWM4-1024x872.jpg');
+  width: 800px;
+  height: 640px;
+  border-radius: 30px;
+}
+
+.text {
+  width: 600px;
+  position: absolute;
+  left: 60%;
+
+}
+
+.text h2 {
+  font-size: 62px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+/* projects */
+.container-large {
+  margin: 200px 10px;
+}
+.projects {
+  background-color: var(--brand-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects h2 {
+  font-size: 62px;
+}
+
+.projects .col-md-3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.projects .col-md-3 img {
+  transition: transform 0.3s ease;
+}
+
+.projects .col-md-3:hover img {
+  transform: scale(1.1);
+}
+
+.projects .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(156, 226, 99, 0.555) 0%, rgba(4, 217, 164, 0.61) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: left;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.projects .col-md-3:hover .overlay {
+  opacity: 1;
+}
+
+.projects .overlay-text {
+  color: white;
+  padding: 20px;
+  text-align: left;
+}
+
+.projects .overlay-text h6 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.projects .overlay-text::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.projects .brand-button {
+  align-self: center;
+  width: 200px;
+} 
+
+/* QUOTES */
+
+.quotes {
+  background: url('./assets/four-businesspeople-in-a-boardroom-with-paperwork-PC4V8H4.jpg') center/cover no-repeat;
+  position: relative; 
+  width: 100%;
+  height: 1000px;
+  
+}
+
+.quotes::before {
+  content: ''; 
+  background-color: rgba(0, 0, 0, 0.7); 
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container-sm {
+  height: 100%;
+}
+.container-sm i {
+  color: var(--brand-green);
+  font-size: 124px;
+}
+
+.quotes .container-sm p {
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  color: var(--brand-text);
+}
+
+.user-quote {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  border: 3px solid var(--border-color);
+}
+
+.user-quote img{
+  width: 250px;
+
+}
+.role {
+  color: var(--brand-text)
+}
+
+/*  News */
+.news {
+  background-color: var(--brand3-bg);
+  width: 100%;
+  height: 900px;
+}
+
+.news h2 {
+  font-size: 54px;
+}
+
+.card-container {
+  position: static;
+
+  border-radius: 25px;
+  width: 600px;
+  height: 340px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  position: relative;
+  bottom: -380px;
+  left: 0;
+  background-color: var(--brand-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24);
+  width: 70%;
+  border: none;
+  height: auto; 
+  z-index: 2;
+}
+
+.card-container img {
+  width: 600px;
+  height: 340px;
+  object-fit: cover; 
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.24); 
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
+.card-container span {
+  color: var(--brand12-text);
+  font-size: small;
+}
+.card-container ul {
+    margin: 0;
+    padding: 0 1.3rem;
+    font-weight: 700;
+    font-size: 22px;
+}
+.card-container li::marker {
+  color: var(--brand-green);
+}
+
+.mt-custom {
+  margin-top: 200px;
+}
+
+
+/* CTA CARDS */
+
+.cards-CTA {
+  background-color: var(--brand3-bg);
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.col {
+  flex: 1;
+  padding: 10px;
+}
+
+.card-black {
+  background: var(--brand2-linear);
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  height: 300px;
+}
+
+.card-brand {
+  background: var(--brand-linear);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: 300px;
+
+}
+
+.email-input {
+  background-color: var(--brand10-bg);
+  border-radius: 30px;
+}
+.email-input input {
+  background: none;
+  border: none;
+  color: white;
+}
+.email-input button {
+  background: none;
+  border: none;
+  font-size: small;
+  color: white
+}
+
