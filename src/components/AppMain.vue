@@ -334,7 +334,7 @@ export default {
                     </div>
                 </div>
             </div>
-            <div class="row my-5 d-flex justify-content-center align-items-center">
+            <div class="row py-5 d-flex justify-content-center align-items-center">
                 <div class="col d-flex justify-content-center align-items-center">
                     <img src="../assets/client-1-2x.png" alt="">
                 </div>

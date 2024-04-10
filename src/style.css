@@ -547,3 +547,29 @@ nav {
   color: white
 }
 
+/* FOOTER */
+
+footer {
+  background-color: var(--brand-bg);
+
+}
+footer .container-large {
+  margin: 200px 0px;
+}
+footer .container-large img {
+
+  width: 250px;
+}
+footer .container-large p {
+  font-size: 14px;
+}
+
+footer li {
+  list-style: none;
+  margin-left: -35px;
+  margin-top: 10px;
+}
+
+footer .container-large .map {
+  width: 80%;
+}
